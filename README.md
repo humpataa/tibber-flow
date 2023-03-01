@@ -1,12 +1,12 @@
 # tibber-flow
 Tibber realtime chart using HTML / Javascript only
 
-Connects to Tibber API, subscribes to realtime websocket
-Draws chart using chart.js
+Connects to Tibber API, subscribes to realtime websocket, draws chart using chart.js
 
 Uses Tibber demo token / homeid if nothing is provided
 
 Very basic HTML / Javascript only
+
 Websocket script based on: https://github.com/gulars/Tibber-Realtime-Kw-Meter
 
 Chart script based on dynamic chart by jordanwillis: https://codepen.io/jordanwillis/pen/bqaGRR
