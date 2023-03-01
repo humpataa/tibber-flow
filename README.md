@@ -5,8 +5,6 @@ Connects to Tibber API, subscribes to realtime websocket, draws chart using char
 
 Uses Tibber demo token / homeid if nothing is provided
 
-Very basic HTML / Javascript only
-
 Websocket script based on: https://github.com/gulars/Tibber-Realtime-Kw-Meter
 
 Chart script based on dynamic chart by jordanwillis: https://codepen.io/jordanwillis/pen/bqaGRR
