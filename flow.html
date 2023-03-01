@@ -1,0 +1,28 @@
+<html>
+<body>
+	<!--
+		tibberflow.html
+		
+		connects to Tibber API, subscribes to realtime websocket
+		draws chart using chart.js
+		
+		uses Tibber demo token / homeid if nothing is provided
+
+		very basic HTML / Javascript only
+		websocket script based on: https://github.com/gulars/Tibber-Realtime-Kw-Meter
+		chart script based on dynamic chart by jordanwillis: https://codepen.io/jordanwillis/pen/bqaGRR
+
+		Questions? Ask me: admin@hopp.la
+	-->
+	<div id="display" style="background-color: #e9e9e9"></div>
+	Tibber Token: <input type="text" id="token" name="token" placeholder="Tibber Token" size="30"></br>
+	Tibber homeId: <input type="text" id="homeid" name="homeid" placeholder="Tibber homeId" size="30"></br>
+	Interval: <select id="interval"><option value="3">3s</option><option value="10">10s</option><option value="30">30s</option></select>
+	<input type="button" id="startstop" value="Let's go!" onClick="startStop();">
+	<div style="width:80%;">
+	  <canvas id="chart"></canvas>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="tibber-flow.js"></script>
+</body>
+</html>
